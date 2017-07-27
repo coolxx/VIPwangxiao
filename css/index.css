@@ -381,6 +381,9 @@ header p{
 .qr img:nth-child(2){
 	margin-left: 0.55rem;
 }
+.th{
+	height: 1.7rem
+}
 .foot{
 	width: 18.0rem;
 	height: 1.7rem;
