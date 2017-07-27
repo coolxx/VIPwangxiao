@@ -1,0 +1,417 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑" !important;}
+html{font-size: 20px;}
+li{ list-style:none; }
+a{ text-decoration:none; }
+img{ vertical-align:top; }
+header{
+	width: 18.0rem;
+	height: 1.25rem;
+	overflow: hidden;
+	background: #1b1b1b;
+}
+header img{
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.25rem;
+	width: 1.975rem;
+}
+header h1{
+	color: #fff;
+	float: left;
+	margin-top: 0.5rem;
+	margin-left: 0.25rem;
+	font-size: 0.45rem;
+	font-weight: bold;
+}
+header p{
+	font-size: 0.45rem;
+	height: 100%;
+	padding-left: 0.875rem;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-right: 0.2rem;
+	line-height: 1.25rem;
+	background: url(../image/phone.png) no-repeat 0 center;
+	background-size: 0.55rem 0.65rem;
+	padding-top: 0.125rem
+}
+.banner{
+	width: 18.0rem;
+	height: 11.4rem;
+	position: relative;
+	background: url(../image/banner.jpg) no-repeat center;
+	background-size: 18.0rem 11.4rem;
+}
+.banner img:nth-child(1){
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 18.0rem;
+	animation: duang 1s ease-in-out forwards;
+}
+@keyframes duang{
+  0% {transform: scale3d(0.9,0.9,0.9);}
+  10%,20% {transform: scale3d(0.9,0.9,0.9) rotate3d(0,0,1,-3deg);}
+  30%,50%,70%,90% {transform: scale3d(0.9,0.9,0.9) rotate3d(0,0,1,3deg);}
+  40%,60%,80% {transform: scale3d(0.9,0.9,0.9) rotate3d(0,0,1,-3deg);}
+  100% {transform: scale3d(1,1,1);opacity:1;}
+}
+.banner img:nth-child(2){
+	position: absolute;
+	left: 0;
+	top: 0.625rem;
+	width: 18.0rem;
+	animation: duang2 1s ease-out forwards;
+	width: 18.0rem
+}
+@keyframes duang2{
+	0%{
+		top: -12.5rem;
+	}
+	100%{
+		top: 0.625rem;
+	}
+}
+.top{
+	width: 18.0rem;
+	height: 7.75rem;
+	background: url(../image/top.jpg) no-repeat center;
+	background-size: 18.0rem 7.75rem;
+	overflow: hidden;
+}
+.top h1{
+	font-size: 0.825rem;
+	text-align: center;
+	line-height: 0.85rem;
+	margin-top: 0.9rem;
+}
+.top h2{
+	font-size: 0.95rem;
+	padding-left: 3.55rem;
+	color: #531ab5;
+	margin-top: 1.75rem;
+}
+.top h2 span{
+	color: #ff1f29
+}
+.main1{
+	width: 18.0rem;
+	height: 18.825rem;
+	background: url(../image/main1.jpg) no-repeat center;
+	background-size: 18.0rem 18.825rem;
+	overflow: hidden;
+}
+.main1 h1{
+	font-size: 0.65rem;
+	line-height: 0.675rem;
+	padding-left: 3.875rem;
+	margin-top: 1.5rem;
+}
+.main1 p{
+	font-size: 0.575rem;
+	color: #fff;
+	padding-left: 3.25rem;
+	margin-top: 1.75rem;
+}
+.main1 p span{
+	color: #e9f311;
+	font-size: 0.575rem;
+}
+.main2{
+	width: 18.0rem;
+	height: 10.85rem;
+	overflow: hidden;
+	background: url(../image/main2.jpg) no-repeat center;
+	background-size: 18.0rem 10.85rem;
+}
+.main2 p{
+	font-size: 0.575rem;
+	color: #fff;
+	padding-left: 3.25rem;
+	margin-top: 1.0rem;
+}
+.main2 p span{
+	color: #e9f311;
+	font-size: 0.575rem;
+}
+.main3{
+	height: 21.075rem;
+	background: url(../image/main3.jpg) no-repeat center;
+	background-size: 18.0rem 21.075rem
+}
+.main4{
+	height: 12.175rem;
+	background: url(../image/main4.jpg) no-repeat center;
+	background-size: 18.0rem 12.175rem
+}
+.main5{
+	height: 25.225rem;
+	background: url(../image/main5.jpg) no-repeat center;
+	background-size: 18.0rem 25.225rem
+}
+.main5 p{
+	font-size: 0.575rem;
+	line-height: 0.575rem;
+	color: #fff;
+	padding-left: 3.25rem;
+	margin-top: 0.55rem;
+}
+.main5 p:nth-child(2){
+	margin-top: 0.4rem;
+}
+.main6{
+	width: 18.0rem;
+	height: 9.2rem;
+	background: url(../image/main6.jpg) no-repeat center;
+	background-size: 18.0rem 9.2rem;
+	overflow: hidden;
+}
+.main6 h1{
+	font-size: 0.65rem;
+	padding-left: 5.375rem;
+	line-height: 0.675rem;
+	margin-top: 1.5rem;
+}
+.main6 h1 span{
+	color: #ff1f29
+}
+.main6 h2{
+	padding-left: 10.0rem;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	margin-top: 2.5rem;
+}
+.main6 p{
+	font-size: 0.55rem;
+	line-height: 0.9rem;
+	text-align: center;
+	padding-left: 5.125rem;
+	margin-top: 0.5rem;
+}
+.main7{
+	width: 18.0rem;
+	height: 5.9rem;
+	overflow: hidden;
+	background: url(../image/main7.jpg) no-repeat center;
+	background-size: 18.0rem 5.9rem
+}
+.main7 h2{
+	padding-left: 3.125rem;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	margin-top: 1.5rem;
+}
+.main7 p{
+	font-size: 0.55rem;
+	line-height: 0.55rem;
+	text-align: left;
+	padding-left: 2.6rem;
+	margin-top: 0.6rem;
+}
+.main7 p:nth-child(3){
+	padding-left: 4.3rem;
+	margin-top: 0.3rem;
+}
+.main8{
+	width: 18.0rem;
+	height: 5.9rem;
+	overflow: hidden;
+	background: url(../image/main8.jpg) no-repeat center;
+	background-size: 18.0rem 5.9rem
+}
+.main8 h2{
+	padding-left: 9.875rem;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	margin-top: 1.5rem;
+}
+.main8 p{
+	font-size: 0.55rem;
+	line-height: 0.55rem;
+	text-align: left;
+	padding-left: 9.725rem;
+	margin-top: 0.6rem;
+}
+.main8 p:nth-child(3){
+	padding-left: 8.625rem;
+	margin-top: 0.3rem;
+}
+.main9{
+	width: 18.0rem;
+	height: 5.9rem;
+	overflow: hidden;
+	background: url(../image/main9.jpg) no-repeat center;
+	background-size: 18.0rem 5.9rem
+}
+.main9 h2{
+	padding-left: 3.55rem;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	margin-top: 1.5rem;
+}
+.main9 p{
+	font-size: 0.55rem;
+	line-height: 0.55rem;
+	text-align: left;
+	padding-left: 4.5rem;
+	margin-top: 0.6rem;
+}
+.main9 p:nth-child(3){
+	padding-left: 2.25rem;
+	margin-top: 0.3rem;
+}
+.main10{
+	width: 18.0rem;
+	height: 5.9rem;
+	overflow: hidden;
+	background: url(../image/main10.jpg) no-repeat center;
+	background-size: 18.0rem 5.9rem
+}
+.main10 h2{
+	padding-left: 9.375rem;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	margin-top: 1.5rem;
+}
+.main10 p{
+	font-size: 0.55rem;
+	line-height: 0.55rem;
+	text-align: left;
+	padding-left: 7.175rem;
+	margin-top: 0.6rem;
+}
+.main10 p:nth-child(3){
+	padding-left: 8.2rem;
+	margin-top: 0.3rem;
+}
+.main11{
+	width: 18.0rem;
+	height: 5.9rem;
+	overflow: hidden;
+	background: url(../image/main11.jpg) no-repeat center;
+	background-size: 18.0rem 5.9rem
+}
+.main11 h2{
+	padding-left: 4.8rem;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	margin-top: 1.75rem;
+}
+.main11 p{
+	font-size: 0.55rem;
+	line-height: 0.55rem;
+	text-align: left;
+	padding-left: 3.75rem;
+	margin-top: 0.6rem;
+}
+.main12{
+	width: 18.0rem;
+	height: 5.9rem;
+	overflow: hidden;
+	background: url(../image/main12.jpg) no-repeat center;
+	background-size: 18.0rem 5.9rem
+}
+.main12 h2{
+	padding-left: 9.75rem;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	margin-top: 1.75rem;
+}
+.main12 p{
+	font-size: 0.55rem;
+	line-height: 0.55rem;
+	text-align: left;
+	padding-left: 8.125rem;
+	margin-top: 0.6rem;
+}
+.main13{
+	width: 18.0rem;
+	height: 13.05rem;
+	overflow: hidden;
+	background: url(../image/main13.jpg) no-repeat center;
+	background-size: 18.0rem 13.05rem
+}
+.main13 h2{
+	font-size: 0.6rem;
+	height: 0.65rem;
+	line-height: 0.65rem;
+	text-align: center;
+	color: #fff;
+	margin-top: 3.95rem;
+}
+.main13 h2 span{
+	font-size: 0.65rem;
+	color: #fdd000
+}
+.main13 p{
+	font-size: 0.55rem;
+	line-height: 0.55rem;
+	margin-top: 0.475rem;
+	text-align: center;
+	color: #fff
+}
+.main13 a{
+	display: block;
+	width: 6.85rem;
+	height: 1.55rem;
+	font-size: 0.7rem;
+	text-align: center;
+	line-height: 1.55rem;
+	font-weight: bold;
+	color: #4c2901;
+	margin: 1.65rem auto 0;
+	background: url(../image/dianji.png) no-repeat center;
+	background-size: 6.85rem 1.55rem
+}
+.qr{
+	width: 18.0rem;
+	height: 11.975rem;
+	background: url(../image/qr.jpg) no-repeat center;
+	background-size: 18.0rem 11.975rem;
+	overflow: hidden;
+}
+.qr img{
+	display: block;
+	float: left;
+	margin-top: 3.6rem;
+	margin-left: 0.375rem;
+	width: 5.875rem
+}
+.qr img:nth-child(2){
+	margin-left: 0.55rem;
+}
+.foot{
+	width: 18.0rem;
+	height: 1.7rem;
+	position: fixed;
+	bottom: 0;
+}
+.foot a{
+	float: left;
+	display: block;
+	height: 1.7rem;
+	font-size: 0.55rem;
+	line-height: 1.7rem;
+	color: #fff
+}
+.foot a:nth-child(1){
+	width: 5.925rem;
+	padding-left: 3.075rem;
+	background: url(../image/dh.png) no-repeat 2.325rem center #000;
+	background-size: 0.625rem 0.625rem
+}
+.foot a:nth-child(2){
+	width: 5.1rem;
+	padding-left: 3.9rem;
+	background: url(../image/hy.png) no-repeat 3.0rem center #f20202;
+	background-size: 0.725rem 0.775rem
+}
+.zixun{
+	position: fixed;
+	right: 2px;
+	top: 45%;
+}
+.zixun img{
+	width: 2.45rem
+}
